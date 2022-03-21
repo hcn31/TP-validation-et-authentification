@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="auth.css">
+    
+</head>
+<body>
+    <center>
+        
+<div style="border:3px solid black;height: 400px;width: 400px;display:flex;justify-content:center;align-items: center; flex-direction:column;background-color:cadetblue ;">
+    <h1>connectez vous</h1>
+    <form onsubmit="login(event)">
+    <input  type="email" name="email" id="email" placeholder="email@gmail.com"><br>
+    <input  type="password" name="motdepasse" id="pass" placeholder="mot de passe "><br>
+    <button type="submit">log in</button>
+   </form> 
+    <h3 id="hcn" style="color:darkblue;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"></h1>
+   <a href="authenitifier.html"><button>creer un compte</button></a>
+</div>
+   <script src="authenitifier.js"></script>
+</center>
+</body>
+</html>
